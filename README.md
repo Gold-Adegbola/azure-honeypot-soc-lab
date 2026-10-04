@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A honeypot SIEM lab where I deployed a Windows VM deliberately exposed to the open internet, forwarded its logs into Microsoft Sentinel, and built detection rules to catch real, unsimulated attack traffic. I also built a live map showing where in the world the attacks were actually coming from. The full step-by-step walkthrough, including exact KQL queries and line-by-line explanations, is in the [full writeup](docs/full-writeup.md).
+A honeypot SIEM lab where I deployed a Windows VM deliberately exposed to the open internet, forwarded its logs into Microsoft Sentinel, and built detection rules to catch real, unsimulated attack traffic. I also built a live map showing where in the world the attacks were actually coming from. The full step-by-step walkthrough, including exact KQL queries and line-by-line explanations, is in the [full writeup](full-writeup.md).
 
 ## Architecture
 
@@ -70,6 +70,6 @@ Microsoft Azure, Microsoft Sentinel, Log Analytics Workspace, Azure Monitor Agen
 
 See the [full writeup](docs/full-writeup.md) for the complete walkthrough, including every KQL query with a line-by-line explanation, the reasoning behind each severity rating, and troubleshooting notes.
 
-- [`docs/full-writeup.md`](docs/full-writeup.md): the full step-by-step writeup with all screenshots
-- [`docs/Honeypot-SIEM-Lab-Documentation.pdf`](docs/Honeypot-SIEM-Lab-Documentation.pdf): the same writeup as a PDF, for downloading and reading later
+- [`docs/full-writeup.md`](full-writeup.md): the full step-by-step writeup with all screenshots
+- [`docs/Honeypot-SIEM-Lab-Documentation.pdf`](Honeypot-SIEM-Lab-Documentation.pdf): the same writeup as a PDF, for downloading and reading later
 - [`images/`](images/): screenshots used in the README and the full writeup
